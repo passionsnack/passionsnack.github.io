@@ -1,0 +1,82 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+body
+{
+	padding-top: 50px;
+}
+
+.jumbotron
+{
+	padding: 120px 0;
+}
+
+.section
+{
+	padding: 30px 0;
+}
+
+#title
+{
+	background-image: url(/img/background.jpg);
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#grid
+{
+	background-color: transparent;
+}
+
+#grid1
+{
+	background-image: url(/img/blurrednew1.jpg),
+					  url(/img/blurrednew2.jpg),
+					  url(/img/blurrednew3.jpg),
+					  url(/img/blurrednew4.jpg),
+					  url(/img/blurrednew5.jpg);
+	background-position: 50% 1100%,
+						 20%,
+						 80%,
+						 0%,
+						 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#grid2
+{
+	background-image: url(/img/blurrednew6.jpg),
+					  url(/img/blurrednew7.jpg),
+					  url(/img/blurrednew8.jpg),
+					  url(/img/blurrednew9.jpg),
+					  url(/img/blurrednew10.jpg);
+	background-position: 50% 2200%,
+						 20%,
+						 80%,
+						 0%,
+						 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#grid3
+{
+	background-image: url(/img/blurrednew11.jpg),
+					  url(/img/blurrednew12.jpg),
+					  url(/img/blurrednew13.jpg),
+					  url(/img/blurrednew14.jpg),
+					  url(/img/blurrednew15.jpg);
+	background-position: 50% 0%,
+						 20%,
+						 80%,
+						 0%,
+						 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
