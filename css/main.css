@@ -12,6 +12,7 @@ body
 .jumbotron
 {
 	padding: 120px 0;
+	margin-bottom: 0px;
 }
 
 .section
@@ -22,6 +23,15 @@ body
 #title
 {
 	background-image: url(/img/background.jpg);
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#team
+{
+	background-image: url(/img/montreal.jpg);
 	background-attachment: fixed;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
