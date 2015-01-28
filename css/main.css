@@ -27,6 +27,7 @@ body
 	background-position: 50% 0;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: white;
 }
 
 #team
@@ -36,11 +37,13 @@ body
 	background-position: 50% 0;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: white;
 }
 
 #grid
 {
 	background-color: transparent;
+	color: white;
 }
 
 #grid1

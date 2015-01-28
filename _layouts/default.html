@@ -60,6 +60,9 @@
                         <li><a href="#how" class="smooth-scroll">How</a></li>
                         <li><a href="#who" class="smooth-scroll">Who</a></li>
                     </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><button type="button" id="signin" class="btn btn-success navbar-btn" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Sorry, the project was discontinued!">Sign In</button></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -68,7 +71,288 @@
 
     <div class="footer container">
         <hr>
-        <p class="text-right"><small>PassionSnack, Inc. &copy; 2015</small></p>
+        <ul class="list-inline">
+            <li>PassionSnack, Inc. &copy; 2015</li>
+            <li> &middot; </li>
+            <li><button type="button" class="btn btn-link" data-toggle="modal" data-target="#about">About</button></li>
+            <li> &middot; </li>
+            <li><button type="button" class="btn btn-link" data-toggle="modal" data-target="#privacy">Privacy Policy</button></li>
+            <li> &middot; </li>
+            <li><button type="button" class="btn btn-link" data-toggle="modal" data-target="#terms">Terms of Use</button></li>
+            <li> &middot; </li>
+            <li><button type="button" class="btn btn-link" data-toggle="modal" data-target="#contact">Contact</button></li>
+        </ul>
+    </div>
+
+    <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="about-modal">About PassionSnack</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        PassionSnack is a community-based website where you can interact with Cities, Universities and Passions that matter to you!<br>
+                        <br>
+                        Get more connected locally, spend less time searching and more time doing!<br>
+                        <br>
+                        It was founded by two McGill students: Noah Dayan and Thomas Brag with the early help of programmers: Alan Yang, Justin Kat, Luiz Takei, Mengxuan Xia, Iain Mingo, Benjamin Hockley and Lixuan Tang.<br>
+                        <br>
+                        The project was discontinued due to lack of funding. We would like to thank all contributors and maintainers of the website for their support.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="privacy-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="privacy-modal">Privacy Policy</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        What information do we collect?<br>
+                        <br>
+                        We collect information from you when you register on our site, subscribe to our newsletter or fill out a form.<br>
+                        <br>
+                        When ordering or registering on our site, as appropriate, you may be asked to enter your: name or e-mail address. You may, however, visit our site anonymously.  <br>
+                        <br>
+                        What do we use your information for?<br>
+                        <br>
+                        Any of the information we collect from you may be used in one of the following ways:<br>
+                        <br>
+                        - To personalize your experience (your information helps us to better respond to your individual needs)  <br>
+                        <br>
+                        - To improve our website (we continually strive to improve our website offerings based on the information and feedback we receive from you)  <br>
+                        <br>
+                        - To improve customer service (your information helps us to more effectively respond to your customer service requests and support needs)   <br>
+                        <br>
+                        - To administer a contest, promotion, survey or other site feature   <br>
+                        <br>
+                        - To send periodic emails  <br>
+                        <br>
+                        The email address you provide may be used to send you information, respond to inquiries, and/or other requests or questions.  <br>
+                        <br>
+                        How do we protect your information?<br>
+                        <br>
+                        We implement a variety of security measures to maintain the safety of your personal information when you enter, submit, or access your personal information.<br>
+                        <br>
+                        Do we use cookies?<br>
+                        <br>
+                        Yes (Cookies are small files that a site or its service provider transfers to your computers hard drive through your Web browser (if you allow) that enables the sites or service providers systems to recognize your browser and capture and remember certain information  )<br>
+                        <br>
+                        We use cookies to understand and save your preferences for future visits and compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.We may contract with third-party service providers to assist us in better understanding our site visitors. These service providers are not permitted to use the information collected on our behalf except to help us conduct and improve our business.  <br>
+                        <br>
+                        Do we disclose any information to outside parties?<br>
+                        <br>
+                        We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others rights, property, or safety. However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.  <br>
+                        <br>
+                        Third party links<br>
+                        <br>
+                        Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.  <br>
+                        <br>
+                        California Online Privacy Protection Act Compliance  <br>
+                        <br>
+                        Because we value your privacy we have taken the necessary precautions to be in compliance with the California Online Privacy Protection Act. We therefore will not distribute your personal information to outside parties without your consent.  <br>
+                        <br>
+                        As part of the California Online Privacy Protection Act, all users of our site may make any changes to their information at anytime by going on their profile page and going to the 'Edit Profile' page.  <br>
+                        <br>
+                        Childrens Online Privacy Protection Act Compliance<br>
+                        <br>
+                        We are in compliance with the requirements of COPPA (Childrens Online Privacy Protection Act), we do not collect any information from anyone under 13 years of age. Our website, products and services are all directed to people who are at least 13 years old or older.  <br>
+                        <br>
+                        Online Privacy Policy Only<br>
+                        <br>
+                        This online privacy policy applies only to information collected through our website and not to information collected offline.  Your Consent   By using our site, you consent to our privacy policy.  Changes to our Privacy Policy   If we decide to change our privacy policy, we will post those changes on this page, send an email notifying you of any changes, and/or update the Privacy Policy modification date below.<br>
+                        <br>
+                        This policy was last modified on Sept 1st 2013   <br>
+                        <br>
+                        This policy is powered by Trust Guard PCI compliance.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="terms-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="terms-modal">Terms and Conditions</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        (1)  Introduction<br>
+                        <br>
+                        These terms of use govern your use of our website; by using our website, you agree to these terms of use in full. If you disagree with these terms of use or any part of these terms of use, you must not use our website.<br>
+                        <br>
+                        Our website uses cookies. By using our website and agreeing to these terms of use, you consent to our use of cookies in accordance with the terms of our privacy policy / cookies policy.<br>
+                        <br>
+                        (2) Credit<br>
+                        <br>
+                        This document was created using an SEQ Legal template.<br>
+                        <br>
+                        (3) License to use website<br>
+                        <br>
+                        Unless otherwise stated, we or our licensors own the intellectual property rights in the website and material on the website. Subject to the license below, all these intellectual property rights are reserved.<br>
+                        <br>
+                        You may view, download for caching purposes only, and print pages or other content from the website for your own personal use, subject to the restrictions set out below and elsewhere in these terms of use.<br>
+                        <br>
+                        You must not:<br>
+                        <br>
+                        (a) Sell, rent or sub-license material from the website;<br>
+                        <br>
+                        (b) Reproduce, duplicate, copy or otherwise exploit material on our website for a commercial purpose;<br>
+                        <br>
+                        (c) Edit or otherwise modify any material on the website without using the editing tool to correct some material or without consent from the owners of the website; or<br>
+                        <br>
+                        (d) Redistribute material from this website except for content specifically and expressly made available for redistribution (such as our newsletter).<br>
+                        <br>
+                        Where content is specifically made available for redistribution, it may only be redistributed within your organization.<br>
+                        <br>
+                        (4) Acceptable use<br>
+                        <br>
+                        You must not use our website in any way that causes, or may cause, damage to the website or impairment of the availability or accessibility of the website; or in any way which is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or harmful purpose or activity.<br>
+                        <br>
+                        You must not use our website to copy, store, host, transmit, send, use, publish or distribute any material which consists of (or is linked to) any spyware, computer virus, Trojan horse, worm, keystroke logger, rootkit or other malicious computer software.<br>
+                        <br>
+                        You must not conduct any systematic or automated data collection activities (including, without limitation, scraping, data mining, data extraction and data harvesting) on or in relation to our website without our express written consent.<br>
+                        <br>
+                        (5) Restricted access<br>
+                        <br>
+                        Access to certain areas of our website is restricted. We reserve the right to restrict access to other areas of our website, or indeed our whole website, at our discretion.<br>
+                        <br>
+                        If we provide you with / you generate a user ID and password to enable you to access restricted areas of our website or other content or services, you must ensure that the password is kept confidential.<br>
+                        <br>
+                        You must notify us in writing immediately if you become aware of any unauthorized use of your account or password.<br>
+                        <br>
+                        You are responsible for any activity on our website arising out of any failure to keep your password confidential and may be held liable for any losses arising out of such a failure.<br>
+                        <br>
+                        You must not use any other person's user ID and password to access our website, unless you have that person's express permission to do so.<br>
+                        <br>
+                        We may disable your user ID and password at any time in our sole discretion with or without notice or explanation.<br>
+                        <br>
+                        (6) User content<br>
+                        <br>
+                        In these terms of use, "your content" means material (including, without limitation, text, images, audio material, video material and audio-visual material) that you submit to our website, for whatever purpose.<br>
+                        <br>
+                        You grant to us a worldwide, irrevocable, non-exclusive, royalty-free licence to use, reproduce, adapt, publish, translate and distribute your content in any existing or future media. You also grant to us the right to sub-license these rights and the right to bring an action for infringement of these rights.<br>
+                        <br>
+                        You warrant and represent that your content will comply with these terms of use.<br>
+                        <br>
+                        Your content must not be illegal or unlawful, must not infringe any third party's legal rights and must not be capable of giving rise to legal action whether against you or us or a third party (in each case under any applicable law).<br>
+                        <br>
+                        You must not submit any content to the website that is or has ever been the subject of any threatened or actual legal proceedings or other similar complaint.<br>
+                        <br>
+                        We reserve the right to edit or remove any material submitted to our website, or stored on our servers, or hosted or published upon our website.<br>
+                        <br>
+                        Notwithstanding our rights under these terms of use in relation to your content, we do not undertake to monitor the submission of such content to, or the publication of such content on, our website.<br>
+                        <br>
+                        (7) Limited warranties<br>
+                        <br>
+                        We do not warrant the completeness or accuracy of the information published on this website; nor do we commit to ensuring that the website remains available or that the material on the website is kept up to date.<br>
+                        <br>
+                        To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to this website and the use of this website (including, without limitation, any warranties implied by law in respect of satisfactory quality, fitness for purpose and/or the use of reasonable care and skill).<br>
+                        <br>
+                        (8) Limitations and exclusions of liability<br>
+                        <br>
+                        Nothing in these terms of use will: (a) limit or exclude our or your liability for death or personal injury resulting from negligence; (b) limit or exclude our or your liability for fraud or fraudulent misrepresentation; (c) limit any of our or your liabilities in any way that is not permitted under applicable law; or (d) exclude any of our or your liabilities that may not be excluded under applicable law.<br>
+                        <br>
+                        The limitations and exclusions of liability set out in this Section and elsewhere in these terms of use: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under these terms of use or in relation to the subject matter of these terms of use, including liabilities arising in contract, in tort (including negligence) and for breach of statutory duty.<br>
+                        <br>
+                        To the extent that the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.<br>
+                        <br>
+                        We will not be liable to you in respect of any losses arising out of any event or events beyond our reasonable control.<br>
+                        <br>
+                        We will not be liable to you in respect of any business losses, including (without limitation) loss of or damage to profits, income, revenue, use, production, anticipated savings, business, contracts, commercial opportunities or goodwill.<br>
+                        <br>
+                        We will not be liable to you in respect of any loss or corruption of any data, database or software.<br>
+                        <br>
+                        We will not be liable to you in respect of any special, indirect or consequential loss or damage.<br>
+                        <br>
+                        (9) Indemnity<br>
+                        <br>
+                        You hereby indemnify us and undertake to keep us indemnified against any losses, damages, costs, liabilities and expenses (including, without limitation, legal expenses and any amounts paid by us to a third party in settlement of a claim or dispute on the advice of our legal advisers) incurred or suffered by us arising out of any breach by you of any provision of these terms of use, or arising out of any claim that you have breached any provision of these terms of use.<br>
+                        <br>
+                        (10)  Breaches of these terms of use<br>
+                        <br>
+                        Without prejudice to our other rights under these terms of use, if you breach these terms of use in any way, we may take such action as we deem appropriate to deal with the breach, including suspending your access to the website, prohibiting you from accessing the website, blocking computers using your IP address from accessing the website, contacting your internet service provider to request that they block your access to the website and/or bringing court proceedings against you.<br>
+                        <br>
+                        (11)  Variation<br>
+                        <br>
+                        We may revise these terms of use from time to time. Revised terms of use will apply to the use of our website from the date of publication of the revised terms of use on our website.<br>
+                        <br>
+                        (12)  Assignment<br>
+                        <br>
+                        We may transfer, sub-contract or otherwise deal with our rights and/or obligations under these terms of use without notifying you or obtaining your consent.<br>
+                        <br>
+                        You may not transfer, sub-contract or otherwise deal with your rights and/or obligations under these terms of use.<br>
+                        <br>
+                        (13)  Severability<br>
+                        <br>
+                        If a provision of these terms of use is determined by any court or other competent authority to be unlawful and/or unenforceable, the other provisions will continue in effect. If any unlawful and/or unenforceable provision would be lawful or enforceable if part of it were deleted, that part will be deemed to be deleted, and the rest of the provision will continue in effect.<br>
+                        <br>
+                        (14)  Exclusion of third party rights<br>
+                        <br>
+                        These terms of use are for the benefit of you and us, and are not intended to benefit any third party or be enforceable by any third party. The exercise of our and your rights in relation to these terms of use is not subject to the consent of any third party.<br>
+                        <br>
+                        (15)  Entire agreement<br>
+                        <br>
+                        Subject to the first paragraph of Section, these terms of use, together with our privacy policy, constitute the entire agreement between you and us in relation to your use of our website and supersede all previous agreements in respect of your use of our website.<br>
+                        <br>
+                        (16)  Law and jurisdiction<br>
+                        <br>
+                        These terms of use will be governed by and construed in accordance with the United States law, and any disputes relating to these terms of use will be subject to the exclusive jurisdiction of the courts of the United States.<br>
+                        <br>
+                        (17)  Registrations and authorisations<br>
+                        <br>
+                        We are registered as PassionSnack Inc. Incorporated in the state of Delaware in the United States of America.<br>
+                        <br>
+                        (18)  Our details<br>
+                        <br>
+                        The full name of our company is PassionSnack Inc.<br>
+                        <br>
+                        We are registered in the United States under PassionSnack Inc.<br>
+                        <br>
+                        You can contact us by email at thomas.brag1@gmail.com or noahdayan@gmail.com
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="contact-modal">Contact PassionSnack</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        For Business queries contact Thomas Brag <a href="mailto:thomas.brag1@gmail.com">here</a>.<br>
+                        For Technical questions contact Noah Dayan <a href="mailto:noahdayan@gmail.com">here</a>.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -82,6 +366,9 @@
 
     <script>
         $(document).ready(function() {
+
+            $('#signin').popover();
+
             $.localScroll({
                 filter: '.smooth-scroll',
                 offset: -50
