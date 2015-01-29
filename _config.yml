@@ -1,5 +1,5 @@
 name: PassionSnack
 markdown: kramdown
 highlighter: pygments
-exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "CNAME"]
 timezone: America/Montreal
