@@ -1,4 +1,4 @@
 passionsnack.github.io
 ======================
 
-PassionSnack website backup.
+PassionSnack website backup - [passionsnack.github.io](http://passionsnack.github.io)
