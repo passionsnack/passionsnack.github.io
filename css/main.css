@@ -93,3 +93,10 @@ body
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
+
+@media (max-width: 991px) {
+	#title, #team, #grid1, #grid2, #grid3
+	{
+		background-attachment: scroll;
+	}
+}
